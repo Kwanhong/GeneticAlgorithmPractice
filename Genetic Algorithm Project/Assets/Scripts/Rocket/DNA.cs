@@ -23,8 +23,8 @@ namespace TheFittestMover
 
         public void SetFitness()
         {
-            float distance = Vector2.Distance(location, target);
-            fitness = Mathf.Pow(1 / distance, 2);
+            //float distance = Vector2.Distance(location, target);
+            //fitness = Mathf.Pow(1 / distance, 2);
         }
     }
 }
